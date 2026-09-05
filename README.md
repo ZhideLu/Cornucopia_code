@@ -43,12 +43,11 @@ For a small memory experiment:
 
 ```bash
 python circuit_simulation/simulate_memory.py \
-  --stage both --codes cornucopia_p21_d6 --basis Z --decoding-mode xz \
-  --p-list 0.002 --cycles 2 --shots 20 --shot-chunk 10 --workers 2
+  --stage X --codes cornucopia_p21_d6 --basis Z --decoding-mode xz \
+  --p-list 0.002 --cycles 6 --shots 200000 --shot-chunk 200 --workers 10
 ```
 
-Results are written to each topic's `results/` directory, which is excluded
-from Git. 
+Results are written to each topic's `results/` directory, which is excluded from Git. 
 
 The supplied matrices, circuits, figure tables, and PDFs are included. Raw Monte Carlo shots and complete decode summaries are not included; regenerating the paper's statistics requires the corresponding simulations.
 
