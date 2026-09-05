@@ -1,0 +1,73 @@
+Cornucopia code construction summary
+
+cornucopia_p21_d6 [[252,130,6]]
+  P=21 L=12 J=3 source_apm=normal_form
+  [[n,k,d]]=[[252,130,6]] ranks=(61,61)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 14], [1, 2, 7]]
+  F=[[1, 16], [8, 8], [1, 15], [1, 15], [1, 18], [1, 12]]
+  G=[[1, 12], [1, 3], [1, 7], [8, 5], [1, 9], [1, 3]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p48_d8 [[576,292,8]]
+  P=48 L=12 J=3 source_apm=detailed_table
+  [[n,k,d]]=[[576,292,8]] ranks=(142,142)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 32], [1, 2, 16]]
+  F=[[1, 1], [17, 5], [1, 42], [1, 12], [1, 12], [1, 24]]
+  G=[[1, 6], [1, 12], [1, 10], [17, 11], [1, 6], [1, 3]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p75_d10 [[900,454,10]]
+  P=75 L=12 J=3 source_apm=normal_form
+  [[n,k,d]]=[[900,454,10]] ranks=(223,223)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 50], [1, 2, 25]]
+  F=[[1, 73], [26, 32], [1, 57], [1, 12], [1, 69], [1, 6]]
+  G=[[1, 9], [1, 57], [1, 61], [26, 17], [1, 60], [1, 57]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p87_d12 [[1044,526,12]]
+  P=87 L=12 J=3 source_apm=detailed_table
+  [[n,k,d]]=[[1044,526,12]] ranks=(259,259)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 29], [1, 2, 58]]
+  F=[[1, 31], [59, 80], [1, 78], [1, 51], [1, 18], [1, 6]]
+  G=[[1, 27], [1, 69], [1, 70], [59, 47], [1, 21], [1, 84]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p147_d14 [[1764,886,14]]
+  P=147 L=12 J=3 source_apm=normal_form
+  [[n,k,d]]=[[1764,886,14]] ranks=(439,439)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 98], [1, 2, 49]]
+  F=[[1, 142], [50, 5], [1, 33], [1, 123], [1, 120], [1, 105]]
+  G=[[1, 42], [1, 87], [1, 130], [50, 95], [1, 45], [1, 78]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p192_d16 [[2304,1156,16]]
+  P=192 L=12 J=3 source_apm=normal_form
+  [[n,k,d]]=[[2304,1156,16]] ranks=(574,574)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 128], [1, 2, 64]]
+  F=[[1, 19], [65, 182], [1, 153], [1, 132], [1, 135], [1, 51]]
+  G=[[1, 84], [1, 21], [1, 112], [65, 14], [1, 120], [1, 183]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p237_d18 [[2844,1426,18]]
+  P=237 L=12 J=3 source_apm=detailed_table
+  [[n,k,d]]=[[2844,1426,18]] ranks=(709,709)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 158], [1, 2, 79]]
+  F=[[1, 85], [80, 128], [1, 213], [1, 18], [1, 198], [1, 165]]
+  G=[[1, 24], [1, 120], [1, 157], [80, 53], [1, 147], [1, 21]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}
+
+cornucopia_p267_d18 [[3204,1606,18]]
+  P=267 L=12 J=3 source_apm=detailed_table
+  [[n,k,d]]=[[3204,1606,18]] ranks=(799,799)
+  orthogonality_ok=True reduced_mod_P_over_3_abelian=True
+  noncommuting_pairs=[[0, 3, 89], [1, 2, 178]]
+  F=[[1, 193], [179, 14], [1, 147], [1, 258], [1, 12], [1, 243]]
+  G=[[1, 120], [1, 60], [1, 232], [179, 50], [1, 96], [1, 15]]
+  checks={'n_matches': True, 'k_matches': True, 'orthogonality_ok': True, 'noncommuting_pairs_match': True, 'reduced_mod_p_over_3_abelian': True, 'all_checks_ok': True}

@@ -1,0 +1,1 @@
+"""Figures logical error rates."""

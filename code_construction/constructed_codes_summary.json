@@ -1,0 +1,930 @@
+[
+  {
+    "F": [
+      [
+        1,
+        16
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        1,
+        12
+      ]
+    ],
+    "G": [
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 21,
+    "P_over_3": 7,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 6,
+    "expected_k": 130,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        14
+      ],
+      [
+        1,
+        2,
+        7
+      ]
+    ],
+    "k": 130,
+    "n": 252,
+    "name": "cornucopia_p21_d6",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        14
+      ],
+      [
+        1,
+        2,
+        7
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[252,130,6]]",
+    "rank_HX": 61,
+    "rank_HZ": 61,
+    "reduced_group_from_markdown": "cyclic C7, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "normal_form",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        1
+      ],
+      [
+        17,
+        5
+      ],
+      [
+        1,
+        42
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        24
+      ]
+    ],
+    "G": [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        17,
+        11
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 48,
+    "P_over_3": 16,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 8,
+    "expected_k": 292,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        32
+      ],
+      [
+        1,
+        2,
+        16
+      ]
+    ],
+    "k": 292,
+    "n": 576,
+    "name": "cornucopia_p48_d8",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        32
+      ],
+      [
+        1,
+        2,
+        16
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[576,292,8]]",
+    "rank_HX": 142,
+    "rank_HZ": 142,
+    "reduced_group_from_markdown": "cyclic C16, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "detailed_table",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        73
+      ],
+      [
+        26,
+        32
+      ],
+      [
+        1,
+        57
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        69
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "G": [
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        57
+      ],
+      [
+        1,
+        61
+      ],
+      [
+        26,
+        17
+      ],
+      [
+        1,
+        60
+      ],
+      [
+        1,
+        57
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 75,
+    "P_over_3": 25,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 10,
+    "expected_k": 454,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        50
+      ],
+      [
+        1,
+        2,
+        25
+      ]
+    ],
+    "k": 454,
+    "n": 900,
+    "name": "cornucopia_p75_d10",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        50
+      ],
+      [
+        1,
+        2,
+        25
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[900,454,10]]",
+    "rank_HX": 223,
+    "rank_HZ": 223,
+    "reduced_group_from_markdown": "cyclic C25, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "normal_form",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        31
+      ],
+      [
+        59,
+        80
+      ],
+      [
+        1,
+        78
+      ],
+      [
+        1,
+        51
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "G": [
+      [
+        1,
+        27
+      ],
+      [
+        1,
+        69
+      ],
+      [
+        1,
+        70
+      ],
+      [
+        59,
+        47
+      ],
+      [
+        1,
+        21
+      ],
+      [
+        1,
+        84
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 87,
+    "P_over_3": 29,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 12,
+    "expected_k": 526,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        29
+      ],
+      [
+        1,
+        2,
+        58
+      ]
+    ],
+    "k": 526,
+    "n": 1044,
+    "name": "cornucopia_p87_d12",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        29
+      ],
+      [
+        1,
+        2,
+        58
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[1044,526,12]]",
+    "rank_HX": 259,
+    "rank_HZ": 259,
+    "reduced_group_from_markdown": "cyclic C29, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "detailed_table",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        142
+      ],
+      [
+        50,
+        5
+      ],
+      [
+        1,
+        33
+      ],
+      [
+        1,
+        123
+      ],
+      [
+        1,
+        120
+      ],
+      [
+        1,
+        105
+      ]
+    ],
+    "G": [
+      [
+        1,
+        42
+      ],
+      [
+        1,
+        87
+      ],
+      [
+        1,
+        130
+      ],
+      [
+        50,
+        95
+      ],
+      [
+        1,
+        45
+      ],
+      [
+        1,
+        78
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 147,
+    "P_over_3": 49,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 14,
+    "expected_k": 886,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        98
+      ],
+      [
+        1,
+        2,
+        49
+      ]
+    ],
+    "k": 886,
+    "n": 1764,
+    "name": "cornucopia_p147_d14",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        98
+      ],
+      [
+        1,
+        2,
+        49
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[1764,886,14]]",
+    "rank_HX": 439,
+    "rank_HZ": 439,
+    "reduced_group_from_markdown": "cyclic C49, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "normal_form",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        19
+      ],
+      [
+        65,
+        182
+      ],
+      [
+        1,
+        153
+      ],
+      [
+        1,
+        132
+      ],
+      [
+        1,
+        135
+      ],
+      [
+        1,
+        51
+      ]
+    ],
+    "G": [
+      [
+        1,
+        84
+      ],
+      [
+        1,
+        21
+      ],
+      [
+        1,
+        112
+      ],
+      [
+        65,
+        14
+      ],
+      [
+        1,
+        120
+      ],
+      [
+        1,
+        183
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 192,
+    "P_over_3": 64,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 16,
+    "expected_k": 1156,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        128
+      ],
+      [
+        1,
+        2,
+        64
+      ]
+    ],
+    "k": 1156,
+    "n": 2304,
+    "name": "cornucopia_p192_d16",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        128
+      ],
+      [
+        1,
+        2,
+        64
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[2304,1156,16]]",
+    "rank_HX": 574,
+    "rank_HZ": 574,
+    "reduced_group_from_markdown": "cyclic C64, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "normal_form",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        85
+      ],
+      [
+        80,
+        128
+      ],
+      [
+        1,
+        213
+      ],
+      [
+        1,
+        18
+      ],
+      [
+        1,
+        198
+      ],
+      [
+        1,
+        165
+      ]
+    ],
+    "G": [
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        120
+      ],
+      [
+        1,
+        157
+      ],
+      [
+        80,
+        53
+      ],
+      [
+        1,
+        147
+      ],
+      [
+        1,
+        21
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 237,
+    "P_over_3": 79,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 18,
+    "expected_k": 1426,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        158
+      ],
+      [
+        1,
+        2,
+        79
+      ]
+    ],
+    "k": 1426,
+    "n": 2844,
+    "name": "cornucopia_p237_d18",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        158
+      ],
+      [
+        1,
+        2,
+        79
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[2844,1426,18]]",
+    "rank_HX": 709,
+    "rank_HZ": 709,
+    "reduced_group_from_markdown": "cyclic C79, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "detailed_table",
+    "translation_count": 10
+  },
+  {
+    "F": [
+      [
+        1,
+        193
+      ],
+      [
+        179,
+        14
+      ],
+      [
+        1,
+        147
+      ],
+      [
+        1,
+        258
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        243
+      ]
+    ],
+    "G": [
+      [
+        1,
+        120
+      ],
+      [
+        1,
+        60
+      ],
+      [
+        1,
+        232
+      ],
+      [
+        179,
+        50
+      ],
+      [
+        1,
+        96
+      ],
+      [
+        1,
+        15
+      ]
+    ],
+    "J": 3,
+    "L": 12,
+    "P": 267,
+    "P_over_3": 89,
+    "active_rows": [
+      0,
+      1,
+      2
+    ],
+    "checks": {
+      "all_checks_ok": true,
+      "k_matches": true,
+      "n_matches": true,
+      "noncommuting_pairs_match": true,
+      "orthogonality_ok": true,
+      "reduced_mod_p_over_3_abelian": true
+    },
+    "col_weight_HX_max": 3,
+    "col_weight_HX_min": 3,
+    "col_weight_HZ_max": 3,
+    "col_weight_HZ_min": 3,
+    "expected_d": 18,
+    "expected_k": 1606,
+    "expected_noncommuting_pairs": [
+      [
+        0,
+        3,
+        89
+      ],
+      [
+        1,
+        2,
+        178
+      ]
+    ],
+    "k": 1606,
+    "n": 3204,
+    "name": "cornucopia_p267_d18",
+    "noncommuting_pairs": [
+      [
+        0,
+        3,
+        89
+      ],
+      [
+        1,
+        2,
+        178
+      ]
+    ],
+    "orthogonality_ok": true,
+    "parameter_label": "[[3204,1606,18]]",
+    "rank_HX": 799,
+    "rank_HZ": 799,
+    "reduced_group_from_markdown": "cyclic C89, abelian",
+    "reduced_mod_p_over_3_abelian": true,
+    "row_weight_HX_max": 12,
+    "row_weight_HX_min": 12,
+    "row_weight_HZ_max": 12,
+    "row_weight_HZ_min": 12,
+    "source_apm": "detailed_table",
+    "translation_count": 10
+  }
+]
