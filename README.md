@@ -43,8 +43,8 @@ For a small memory experiment:
 
 ```bash
 python circuit_simulation/simulate_memory.py \
-  --stage X --codes cornucopia_p21_d6 --basis Z --decoding-mode xz \
-  --p-list 0.002 --cycles 6 --shots 200000 --shot-chunk 200 --workers 10
+  --stage both --codes cornucopia_p21_d6 --basis Z --decoding-mode xz \
+  --p-list 0.002 --cycles 6 --shots 2000 --shot-chunk 200 --workers 10
 ```
 
 Results are written to each topic's `results/` directory, which is excluded from Git. 
