@@ -8,13 +8,13 @@ Code construction and circuit-level simulations of Cornucopia codes, with bivari
 
 | Topic | Contents |
 | --- | --- |
-| [Code construction](code_construction/) | Affine maps, code parameters, and supplied parity-check matrices |
-| [Syndrome extraction](syndrome_extraction/) | Parallel CX schedules, memory circuits, and supplied Stim circuits |
+| [Code construction](code_construction/) | Affine maps, code parameters, and parity-check matrices |
+| [Syndrome extraction](syndrome_extraction/) | Parallel CX schedules |
 | [Circuit distance](circuit_distance/) | Randomized BP-OSD search for circuit-distance upper bounds |
-| [Circuit simulation](circuit_simulation/) | Cornucopia memory experiments, decoder routines, and BP-OSD retries |
+| [Circuit simulation](circuit_simulation/) | Cornucopia memory experiments |
 | [Bivariate-bicycle codes](bivariate_bicycle/) | BB construction, syndrome circuit, and memory experiments |
-| [Surface codes](surface_code/) | Rotated surface-code construction, circuits, and memory experiments |
-| [Figures](figures/) | Overhead and logical-error-rate plots, with numerical tables and PDFs |
+| [Surface codes](surface_code/) | Rotated surface-code construction, syndrome circuit, and memory experiments |
+| [Figures](figures/) | Logical-error-rate plots, with numerical tables and PDFs |
 
 
 
