@@ -2,7 +2,7 @@
 
 Code accompanying **Quantum error correction at ultra-low overhead**,
 Zhide Lu, Weikang Li, and Dong-Ling Deng (2026).
-[arXiv:2608.02773](https://arxiv.org/abs/2608.02773).
+[arXiv:2608.02773](https://arxiv.org/abs/2608.02773v2).
 
 Code construction and circuit-level simulations of Cornucopia codes, with bivariate-bicycle and rotated surface codes for comparison.
 
