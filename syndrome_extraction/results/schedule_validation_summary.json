@@ -1,0 +1,1386 @@
+[
+  {
+    "J": 3,
+    "L": 12,
+    "P": 21,
+    "data_disjoint": true,
+    "dem_num_detectors": 252,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63,
+        63
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 63,
+    "mZ": 63,
+    "n": 252,
+    "name": "cornucopia_p21_d6",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 252,
+    "num_observables": 0,
+    "parameter_label": "[[252,130,6]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p21_d6_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 48,
+    "data_disjoint": true,
+    "dem_num_detectors": 576,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144,
+        144
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 144,
+    "mZ": 144,
+    "n": 576,
+    "name": "cornucopia_p48_d8",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 576,
+    "num_observables": 0,
+    "parameter_label": "[[576,292,8]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p48_d8_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 75,
+    "data_disjoint": true,
+    "dem_num_detectors": 900,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225,
+        225
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 225,
+    "mZ": 225,
+    "n": 900,
+    "name": "cornucopia_p75_d10",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 900,
+    "num_observables": 0,
+    "parameter_label": "[[900,454,10]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p75_d10_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 87,
+    "data_disjoint": true,
+    "dem_num_detectors": 1044,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261,
+        261
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 261,
+    "mZ": 261,
+    "n": 1044,
+    "name": "cornucopia_p87_d12",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 1044,
+    "num_observables": 0,
+    "parameter_label": "[[1044,526,12]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p87_d12_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 147,
+    "data_disjoint": true,
+    "dem_num_detectors": 1764,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441,
+        441
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 441,
+    "mZ": 441,
+    "n": 1764,
+    "name": "cornucopia_p147_d14",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 1764,
+    "num_observables": 0,
+    "parameter_label": "[[1764,886,14]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p147_d14_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 192,
+    "data_disjoint": true,
+    "dem_num_detectors": 2304,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576,
+        576
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 576,
+    "mZ": 576,
+    "n": 2304,
+    "name": "cornucopia_p192_d16",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 2304,
+    "num_observables": 0,
+    "parameter_label": "[[2304,1156,16]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p192_d16_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 237,
+    "data_disjoint": true,
+    "dem_num_detectors": 2844,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711,
+        711
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 711,
+    "mZ": 711,
+    "n": 2844,
+    "name": "cornucopia_p237_d18",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 2844,
+    "num_observables": 0,
+    "parameter_label": "[[2844,1426,18]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p237_d18_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  },
+  {
+    "J": 3,
+    "L": 12,
+    "P": 267,
+    "data_disjoint": true,
+    "dem_num_detectors": 3204,
+    "dem_num_errors": 0,
+    "dem_num_observables": 0,
+    "deterministic_detectors": true,
+    "layer_overlaps": [
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 0,
+        "x_layer": "F0",
+        "z_layer": "G3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 1,
+        "x_layer": "F1",
+        "z_layer": "G2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 2,
+        "x_layer": "F2",
+        "z_layer": "G1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 3,
+        "x_layer": "F3",
+        "z_layer": "G0"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 4,
+        "x_layer": "F4",
+        "z_layer": "G5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 5,
+        "x_layer": "F5",
+        "z_layer": "G4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 6,
+        "x_layer": "G4",
+        "z_layer": "F5"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 7,
+        "x_layer": "G5",
+        "z_layer": "F4"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 8,
+        "x_layer": "G0",
+        "z_layer": "F3"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 9,
+        "x_layer": "G1",
+        "z_layer": "F2"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 10,
+        "x_layer": "G2",
+        "z_layer": "F1"
+      },
+      {
+        "overlap_count": 0,
+        "overlap_sample": [],
+        "tick": 11,
+        "x_layer": "G3",
+        "z_layer": "F0"
+      }
+    ],
+    "layer_reconstruction": {
+      "x_layer_sizes": [
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801
+      ],
+      "x_matching_ok": true,
+      "x_matrix_matches": true,
+      "z_layer_sizes": [
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801,
+        801
+      ],
+      "z_matching_ok": true,
+      "z_matrix_matches": true
+    },
+    "mX": 801,
+    "mZ": 801,
+    "n": 3204,
+    "name": "cornucopia_p267_d18",
+    "noise": {
+      "p_cx": 0.0,
+      "p_final_measure_flip": 0.0,
+      "p_measure_flip": 0.0,
+      "p_reset_flip": 0.0
+    },
+    "num_detectors": 3204,
+    "num_observables": 0,
+    "parameter_label": "[[3204,1606,18]]",
+    "rounds": 2,
+    "stim_path": "stim_circuits/cornucopia_p267_d18_r2.stim",
+    "x_order": [
+      "F0",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "G4",
+      "G5",
+      "G0",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "z_order": [
+      "G3",
+      "G2",
+      "G1",
+      "G0",
+      "G5",
+      "G4",
+      "F5",
+      "F4",
+      "F3",
+      "F2",
+      "F1",
+      "F0"
+    ]
+  }
+]

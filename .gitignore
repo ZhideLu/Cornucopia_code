@@ -1,0 +1,23 @@
+# Outputs of the memory experiments and of the circuit-distance search are not
+# tracked. The results/ folders of code_construction/ and syndrome_extraction/
+# are part of the repository.
+circuit_distance/results/
+circuit_simulation/results/
+bivariate_bicycle/results/
+surface_code/results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
