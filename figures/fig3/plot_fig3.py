@@ -213,13 +213,13 @@ def surface_points() -> tuple[CodePoint, ...]:
 def cornucopia_cycle_times_ms() -> tuple[tuple[int, float], ...]:
     # Extended Table 2, final "Cycle Total (ms)" row.
     return (
-        (6, 10.41),
-        (8, 11.92),
-        (10, 12.87),
-        (12, 13.22),
-        (14, 14.68),
-        (16, 15.48),
-        (18, 16.18),
+        (6, 10.33),
+        (8, 11.84),
+        (10, 12.79),
+        (12, 13.14),
+        (14, 14.60),
+        (16, 15.41),
+        (18, 16.10),
     )
 
 
@@ -495,7 +495,11 @@ def write_data_csv(path: Path) -> None:
                     point.total_physical_qubits,
                     point.logical_qubits,
                     f"{point.overhead_per_logical:.12g}",
-                    times.get(point.distance, "") if point.family == "Cornucopia" else "",
+                    (
+                        f"{times[point.distance]:.2f}"
+                        if point.family == "Cornucopia" and point.distance in times
+                        else ""
+                    ),
                 ]
             )
 

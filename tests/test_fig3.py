@@ -46,13 +46,13 @@ def test_surface_overhead_matches_rotated_memory_qubit_counts() -> None:
 
 def test_cycle_total_row_is_transcribed_exactly() -> None:
     assert cornucopia_cycle_times_ms() == (
-        (6, 10.41),
-        (8, 11.92),
-        (10, 12.87),
-        (12, 13.22),
-        (14, 14.68),
-        (16, 15.48),
-        (18, 16.18),
+        (6, 10.33),
+        (8, 11.84),
+        (10, 12.79),
+        (12, 13.14),
+        (14, 14.60),
+        (16, 15.41),
+        (18, 16.10),
     )
 
 
