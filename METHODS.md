@@ -33,20 +33,14 @@ from above. Finite randomized search cannot establish optimality.
 
 ## Logical-error reporting
 
-A shot is one complete memory experiment, from preparation through $T$
-syndrome cycles to final readout. It fails if at least one decoded logical
-observable is incorrect. Let
-$P_B$ denote this block failure probability, $k$ the observable count, and $T$
+A shot is one complete memory experiment, from preparation through $T$ syndrome cycles to final readout. It fails if at least one decoded logical observable is incorrect. Let $P_B$ denote this block failure probability, $k$ the observable count, and $T$
 the cycle count. The effective rate used here is
 
 $$p_L=1-(1-P_B)^{1/(kT)}.$$
 
 In the `*_xz_average_rates.csv` tables, `LER` denotes the X/Z-averaged $P_B$,
 `x_LER` and `z_LER` the single-basis block failure probabilities, and
-`LER_per_cycle_per_logical` and `yerr` denote $p_L$ and its error bar. The
-Cornucopia and surface tables give $k$ in the `observables` column. The BB
-table has no such column: both BB codes have $k=12$, and its `block_size`
-column is $\ell m$, the size of each circulant block. In the
+`LER_per_cycle_per_logical` and `yerr` denote $p_L$ and its error bar. In the
 `*_fit_data.csv` tables, `y` and `yerr` are $p_L$ and its error bar.
 
 This conversion assumes a factorized effective rate; it does not demonstrate
