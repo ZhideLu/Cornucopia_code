@@ -24,8 +24,8 @@ class CodeSpec:
     p: int
     l: int
     j: int
-    f_params: Tuple[Tuple[int, int], ...]
-    g_params: Tuple[Tuple[int, int], ...]
+    a_params: Tuple[Tuple[int, int], ...]
+    b_params: Tuple[Tuple[int, int], ...]
     active_rows: Optional[Tuple[int, ...]] = None
 
     @property
@@ -88,14 +88,14 @@ def permutation_matrix(a: int, b: int, p: int, transpose: bool = False) -> spars
 def build_code(spec: CodeSpec) -> AffineCSSCode:
     """Assemble sparse CSS checks from cyclically indexed affine blocks.
 
-    Row i contains [F_(j-i), G_(j-i)] in H_X and
-    [G_(i-j)^T, F_(i-j)^T] in H_Z, with indices modulo L/2.
+    Row i contains [A_(j-i), B_(j-i)] in H_X and
+    [B_(i-j)^T, A_(i-j)^T] in H_Z, with indices modulo L/2.
     Commutation is a property of the supplied maps and must be checked.
     """
     if spec.l % 2:
-        raise ValueError("L must be even so it can split into F and G halves.")
-    if len(spec.f_params) != spec.half or len(spec.g_params) != spec.half:
-        raise ValueError("Expected exactly L/2 F maps and L/2 G maps.")
+        raise ValueError("L must be even so it can split into A and B halves.")
+    if len(spec.a_params) != spec.half or len(spec.b_params) != spec.half:
+        raise ValueError("Expected exactly L/2 A maps and L/2 B maps.")
     if spec.j < 1 or spec.j > spec.half:
         raise ValueError("J must satisfy 1 <= J <= L/2.")
     active_rows = spec.active_set
@@ -106,18 +106,18 @@ def build_code(spec: CodeSpec) -> AffineCSSCode:
     if any(row < 0 or row >= spec.half for row in active_rows):
         raise ValueError("Active rows must lie in 0..L/2-1.")
 
-    f_mats = [permutation_matrix(a, b, spec.p) for a, b in spec.f_params]
-    g_mats = [permutation_matrix(a, b, spec.p) for a, b in spec.g_params]
-    f_t = [matrix.T.tocsr() for matrix in f_mats]
-    g_t = [matrix.T.tocsr() for matrix in g_mats]
+    a_mats = [permutation_matrix(a, b, spec.p) for a, b in spec.a_params]
+    b_mats = [permutation_matrix(a, b, spec.p) for a, b in spec.b_params]
+    a_mats_t = [matrix.T.tocsr() for matrix in a_mats]
+    b_mats_t = [matrix.T.tocsr() for matrix in b_mats]
 
     hx_rows = []
     hz_rows = []
     for row in active_rows:
-        hx_blocks = [f_mats[(col - row) % spec.half] for col in range(spec.half)]
-        hx_blocks += [g_mats[(col - row) % spec.half] for col in range(spec.half)]
-        hz_blocks = [g_t[(row - col) % spec.half] for col in range(spec.half)]
-        hz_blocks += [f_t[(row - col) % spec.half] for col in range(spec.half)]
+        hx_blocks = [a_mats[(col - row) % spec.half] for col in range(spec.half)]
+        hx_blocks += [b_mats[(col - row) % spec.half] for col in range(spec.half)]
+        hz_blocks = [b_mats_t[(row - col) % spec.half] for col in range(spec.half)]
+        hz_blocks += [a_mats_t[(row - col) % spec.half] for col in range(spec.half)]
         hx_rows.append(sparse.hstack(hx_blocks, format="csr", dtype=np.uint8))
         hz_rows.append(sparse.hstack(hz_blocks, format="csr", dtype=np.uint8))
 

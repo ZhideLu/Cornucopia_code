@@ -3,18 +3,21 @@
 
 The parallel syndrome-extraction order is:
 
-  t=00: Z=G3  X=F0
-  t=01: Z=G2  X=F1
-  t=02: Z=G1  X=F2
-  t=03: Z=G0  X=F3
-  t=04: Z=G5  X=F4
-  t=05: Z=G4  X=F5
-  t=06: Z=F5  X=G4
-  t=07: Z=F4  X=G5
-  t=08: Z=F3  X=G0
-  t=09: Z=F2  X=G1
-  t=10: Z=F1  X=G2
-  t=11: Z=F0  X=G3
+  t=00: Z=B3  X=A0
+  t=01: Z=B2  X=A1
+  t=02: Z=B1  X=A2
+  t=03: Z=B0  X=A3
+  t=04: Z=B5  X=A4
+  t=05: Z=B4  X=A5
+  t=06: Z=A5  X=B4
+  t=07: Z=A4  X=B5
+  t=08: Z=A3  X=B0
+  t=09: Z=A2  X=B1
+  t=10: Z=A1  X=B2
+  t=11: Z=A0  X=B3
+
+Z layers apply the transposed blocks, i.e. the inverse maps B_k^{-1} and
+A_k^{-1} of the paper (Extended Data Table 3).
 """
 
 from __future__ import annotations
@@ -32,33 +35,33 @@ AffineMap = Tuple[int, int]
 
 
 PARALLEL_Z_ORDER: tuple[tuple[str, int], ...] = (
-    ("G", 3),
-    ("G", 2),
-    ("G", 1),
-    ("G", 0),
-    ("G", 5),
-    ("G", 4),
-    ("F", 5),
-    ("F", 4),
-    ("F", 3),
-    ("F", 2),
-    ("F", 1),
-    ("F", 0),
+    ("B", 3),
+    ("B", 2),
+    ("B", 1),
+    ("B", 0),
+    ("B", 5),
+    ("B", 4),
+    ("A", 5),
+    ("A", 4),
+    ("A", 3),
+    ("A", 2),
+    ("A", 1),
+    ("A", 0),
 )
 
 PARALLEL_X_ORDER: tuple[tuple[str, int], ...] = (
-    ("F", 0),
-    ("F", 1),
-    ("F", 2),
-    ("F", 3),
-    ("F", 4),
-    ("F", 5),
-    ("G", 4),
-    ("G", 5),
-    ("G", 0),
-    ("G", 1),
-    ("G", 2),
-    ("G", 3),
+    ("A", 0),
+    ("A", 1),
+    ("A", 2),
+    ("A", 3),
+    ("A", 4),
+    ("A", 5),
+    ("B", 4),
+    ("B", 5),
+    ("B", 0),
+    ("B", 1),
+    ("B", 2),
+    ("B", 3),
 )
 
 
@@ -151,25 +154,25 @@ def build_apm_layers(
     p = int(code.spec.p)
     half = int(code.spec.half)
     active_rows = tuple(int(row) for row in code.spec.active_set)
-    f_params = tuple(code.spec.f_params)
-    g_params = tuple(code.spec.g_params)
+    a_params = tuple(code.spec.a_params)
+    b_params = tuple(code.spec.b_params)
 
     layers: list[APMLayer] = []
     for family, index in order:
-        if family not in ("F", "G"):
+        if family not in ("A", "B"):
             raise ValueError(f"bad APM family {family!r}")
-        apm = f_params[index] if family == "F" else g_params[index]
+        apm = a_params[index] if family == "A" else b_params[index]
         local_data = _local_images(apm, p, transpose=basis == "Z")
         edges: list[tuple[int, int]] = []
         for active_index, active_row in enumerate(active_rows):
             check_base = active_index * p
             if basis == "X":
                 data_block = (index + active_row) % half
-                if family == "G":
+                if family == "B":
                     data_block += half
             else:
                 data_block = (active_row - index) % half
-                if family == "F":
+                if family == "A":
                     data_block += half
             data_base = data_block * p
             for check_local in range(p):

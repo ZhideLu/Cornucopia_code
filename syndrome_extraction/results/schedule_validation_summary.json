@@ -13,85 +13,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -144,32 +144,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p21_d6_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -186,85 +186,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -317,32 +317,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p48_d8_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -359,85 +359,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -490,32 +490,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p75_d10_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -532,85 +532,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -663,32 +663,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p87_d12_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -705,85 +705,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -836,32 +836,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p147_d14_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -878,85 +878,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -1009,32 +1009,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p192_d16_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -1051,85 +1051,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -1182,32 +1182,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p237_d18_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   },
   {
@@ -1224,85 +1224,85 @@
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 0,
-        "x_layer": "F0",
-        "z_layer": "G3"
+        "x_layer": "A0",
+        "z_layer": "B3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 1,
-        "x_layer": "F1",
-        "z_layer": "G2"
+        "x_layer": "A1",
+        "z_layer": "B2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 2,
-        "x_layer": "F2",
-        "z_layer": "G1"
+        "x_layer": "A2",
+        "z_layer": "B1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 3,
-        "x_layer": "F3",
-        "z_layer": "G0"
+        "x_layer": "A3",
+        "z_layer": "B0"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 4,
-        "x_layer": "F4",
-        "z_layer": "G5"
+        "x_layer": "A4",
+        "z_layer": "B5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 5,
-        "x_layer": "F5",
-        "z_layer": "G4"
+        "x_layer": "A5",
+        "z_layer": "B4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 6,
-        "x_layer": "G4",
-        "z_layer": "F5"
+        "x_layer": "B4",
+        "z_layer": "A5"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 7,
-        "x_layer": "G5",
-        "z_layer": "F4"
+        "x_layer": "B5",
+        "z_layer": "A4"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 8,
-        "x_layer": "G0",
-        "z_layer": "F3"
+        "x_layer": "B0",
+        "z_layer": "A3"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 9,
-        "x_layer": "G1",
-        "z_layer": "F2"
+        "x_layer": "B1",
+        "z_layer": "A2"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 10,
-        "x_layer": "G2",
-        "z_layer": "F1"
+        "x_layer": "B2",
+        "z_layer": "A1"
       },
       {
         "overlap_count": 0,
         "overlap_sample": [],
         "tick": 11,
-        "x_layer": "G3",
-        "z_layer": "F0"
+        "x_layer": "B3",
+        "z_layer": "A0"
       }
     ],
     "layer_reconstruction": {
@@ -1355,32 +1355,32 @@
     "rounds": 2,
     "stim_path": "stim_circuits/cornucopia_p267_d18_r2.stim",
     "x_order": [
-      "F0",
-      "F1",
-      "F2",
-      "F3",
-      "F4",
-      "F5",
-      "G4",
-      "G5",
-      "G0",
-      "G1",
-      "G2",
-      "G3"
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "B4",
+      "B5",
+      "B0",
+      "B1",
+      "B2",
+      "B3"
     ],
     "z_order": [
-      "G3",
-      "G2",
-      "G1",
-      "G0",
-      "G5",
-      "G4",
-      "F5",
-      "F4",
-      "F3",
-      "F2",
-      "F1",
-      "F0"
+      "B3",
+      "B2",
+      "B1",
+      "B0",
+      "B5",
+      "B4",
+      "A5",
+      "A4",
+      "A3",
+      "A2",
+      "A1",
+      "A0"
     ]
   }
 ]

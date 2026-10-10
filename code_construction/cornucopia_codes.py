@@ -31,8 +31,8 @@ class CornucopiaSpec:
     j: int
     expected_k: int
     expected_d: int
-    f_params: Tuple[AffineMap, ...]
-    g_params: Tuple[AffineMap, ...]
+    a_params: Tuple[AffineMap, ...]
+    b_params: Tuple[AffineMap, ...]
     expected_noncommuting_pairs: Tuple[Tuple[int, int, int], ...]
     expected_reduced_group: str
 
@@ -47,8 +47,8 @@ class CornucopiaSpec:
             p=self.p,
             l=self.l,
             j=self.j,
-            f_params=self.f_params,
-            g_params=self.g_params,
+            a_params=self.a_params,
+            b_params=self.b_params,
             active_rows=(0, 1, 2),
         )
 
@@ -63,8 +63,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=130,
         expected_d=6,
         expected_reduced_group="cyclic C7, abelian",
-        f_params=((1, 16), (8, 8), (1, 15), (1, 15), (1, 18), (1, 12)),
-        g_params=((1, 12), (1, 3), (1, 7), (8, 5), (1, 9), (1, 3)),
+        a_params=((1, 16), (8, 8), (1, 15), (1, 15), (1, 18), (1, 12)),
+        b_params=((1, 12), (1, 3), (1, 7), (8, 5), (1, 9), (1, 3)),
         expected_noncommuting_pairs=((0, 3, 14), (1, 2, 7)),
     ),
     CornucopiaSpec(
@@ -76,8 +76,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=292,
         expected_d=8,
         expected_reduced_group="cyclic C16, abelian",
-        f_params=((1, 1), (17, 5), (1, 42), (1, 12), (1, 12), (1, 24)),
-        g_params=((1, 6), (1, 12), (1, 10), (17, 11), (1, 6), (1, 3)),
+        a_params=((1, 1), (17, 5), (1, 42), (1, 12), (1, 12), (1, 24)),
+        b_params=((1, 6), (1, 12), (1, 10), (17, 11), (1, 6), (1, 3)),
         expected_noncommuting_pairs=((0, 3, 32), (1, 2, 16)),
     ),
     CornucopiaSpec(
@@ -89,8 +89,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=454,
         expected_d=10,
         expected_reduced_group="cyclic C25, abelian",
-        f_params=((1, 73), (26, 32), (1, 57), (1, 12), (1, 69), (1, 6)),
-        g_params=((1, 9), (1, 57), (1, 61), (26, 17), (1, 60), (1, 57)),
+        a_params=((1, 73), (26, 32), (1, 57), (1, 12), (1, 69), (1, 6)),
+        b_params=((1, 9), (1, 57), (1, 61), (26, 17), (1, 60), (1, 57)),
         expected_noncommuting_pairs=((0, 3, 50), (1, 2, 25)),
     ),
     CornucopiaSpec(
@@ -102,8 +102,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=526,
         expected_d=12,
         expected_reduced_group="cyclic C29, abelian",
-        f_params=((1, 31), (59, 80), (1, 78), (1, 51), (1, 18), (1, 6)),
-        g_params=((1, 27), (1, 69), (1, 70), (59, 47), (1, 21), (1, 84)),
+        a_params=((1, 31), (59, 80), (1, 78), (1, 51), (1, 18), (1, 6)),
+        b_params=((1, 27), (1, 69), (1, 70), (59, 47), (1, 21), (1, 84)),
         expected_noncommuting_pairs=((0, 3, 29), (1, 2, 58)),
     ),
     CornucopiaSpec(
@@ -115,8 +115,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=886,
         expected_d=14,
         expected_reduced_group="cyclic C49, abelian",
-        f_params=((1, 142), (50, 5), (1, 33), (1, 123), (1, 120), (1, 105)),
-        g_params=((1, 42), (1, 87), (1, 130), (50, 95), (1, 45), (1, 78)),
+        a_params=((1, 142), (50, 5), (1, 33), (1, 123), (1, 120), (1, 105)),
+        b_params=((1, 42), (1, 87), (1, 130), (50, 95), (1, 45), (1, 78)),
         expected_noncommuting_pairs=((0, 3, 98), (1, 2, 49)),
     ),
     CornucopiaSpec(
@@ -128,8 +128,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=1156,
         expected_d=16,
         expected_reduced_group="cyclic C64, abelian",
-        f_params=((1, 19), (65, 182), (1, 153), (1, 132), (1, 135), (1, 51)),
-        g_params=((1, 84), (1, 21), (1, 112), (65, 14), (1, 120), (1, 183)),
+        a_params=((1, 19), (65, 182), (1, 153), (1, 132), (1, 135), (1, 51)),
+        b_params=((1, 84), (1, 21), (1, 112), (65, 14), (1, 120), (1, 183)),
         expected_noncommuting_pairs=((0, 3, 128), (1, 2, 64)),
     ),
     CornucopiaSpec(
@@ -141,8 +141,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=1426,
         expected_d=18,
         expected_reduced_group="cyclic C79, abelian",
-        f_params=((1, 85), (80, 128), (1, 213), (1, 18), (1, 198), (1, 165)),
-        g_params=((1, 24), (1, 120), (1, 157), (80, 53), (1, 147), (1, 21)),
+        a_params=((1, 85), (80, 128), (1, 213), (1, 18), (1, 198), (1, 165)),
+        b_params=((1, 24), (1, 120), (1, 157), (80, 53), (1, 147), (1, 21)),
         expected_noncommuting_pairs=((0, 3, 158), (1, 2, 79)),
     ),
     # Additional distance-18 instance; it is not reported in the paper.
@@ -155,8 +155,8 @@ SPECS: Tuple[CornucopiaSpec, ...] = (
         expected_k=1606,
         expected_d=18,
         expected_reduced_group="cyclic C89, abelian",
-        f_params=((1, 193), (179, 14), (1, 147), (1, 258), (1, 12), (1, 243)),
-        g_params=((1, 120), (1, 60), (1, 232), (179, 50), (1, 96), (1, 15)),
+        a_params=((1, 193), (179, 14), (1, 147), (1, 258), (1, 12), (1, 243)),
+        b_params=((1, 120), (1, 60), (1, 232), (179, 50), (1, 96), (1, 15)),
         expected_noncommuting_pairs=((0, 3, 89), (1, 2, 178)),
     ),
 )
@@ -168,26 +168,26 @@ def commutation_residue(left: AffineMap, right: AffineMap, modulus: int) -> int:
     return (d * (a - 1) - b * (c - 1)) % modulus
 
 
-def noncommuting_fg_pairs(
-    f_params: Sequence[AffineMap],
-    g_params: Sequence[AffineMap],
+def noncommuting_ab_pairs(
+    a_params: Sequence[AffineMap],
+    b_params: Sequence[AffineMap],
     modulus: int,
 ) -> Tuple[Tuple[int, int, int], ...]:
     out = []
-    for i, f_map in enumerate(f_params):
-        for j, g_map in enumerate(g_params):
-            residue = commutation_residue(f_map, g_map, modulus)
+    for i, a_map in enumerate(a_params):
+        for j, b_map in enumerate(b_params):
+            residue = commutation_residue(a_map, b_map, modulus)
             if residue:
                 out.append((i, j, residue))
     return tuple(out)
 
 
 def all_maps_commute_mod(
-    f_params: Sequence[AffineMap],
-    g_params: Sequence[AffineMap],
+    a_params: Sequence[AffineMap],
+    b_params: Sequence[AffineMap],
     modulus: int,
 ) -> bool:
-    maps = tuple(f_params) + tuple(g_params)
+    maps = tuple(a_params) + tuple(b_params)
     for i in range(len(maps)):
         for j in range(i + 1, len(maps)):
             if commutation_residue(maps[i], maps[j], modulus):
@@ -195,12 +195,12 @@ def all_maps_commute_mod(
     return True
 
 
-def translation_count(f_params: Sequence[AffineMap], g_params: Sequence[AffineMap], p: int) -> int:
-    return sum(1 for a, _b in (*f_params, *g_params) if a % p == 1)
+def translation_count(a_params: Sequence[AffineMap], b_params: Sequence[AffineMap], p: int) -> int:
+    return sum(1 for a, _b in (*a_params, *b_params) if a % p == 1)
 
 
 def assert_valid_affine_maps(spec: CornucopiaSpec) -> None:
-    for label, params in (("F", spec.f_params), ("G", spec.g_params)):
+    for label, params in (("A", spec.a_params), ("B", spec.b_params)):
         if len(params) != 6:
             raise ValueError(f"{spec.name}: expected 6 {label} maps")
         for index, (a, _b) in enumerate(params):
@@ -223,8 +223,8 @@ def construct_one(spec: CornucopiaSpec, *, write_matrices: bool, matrix_dir: Pat
     rank_hx, rank_hz = code.ranks()
     k = code.num_logicals()
     q = spec.p // 3
-    fg_noncommuting = noncommuting_fg_pairs(spec.f_params, spec.g_params, spec.p)
-    reduced_abelian = all_maps_commute_mod(spec.f_params, spec.g_params, q)
+    ab_noncommuting = noncommuting_ab_pairs(spec.a_params, spec.b_params, spec.p)
+    reduced_abelian = all_maps_commute_mod(spec.a_params, spec.b_params, q)
     row_wx = np.asarray(code.HX.sum(axis=1)).ravel()
     row_wz = np.asarray(code.HZ.sum(axis=1)).ravel()
     col_wx = np.asarray(code.HX.sum(axis=0)).ravel()
@@ -238,7 +238,7 @@ def construct_one(spec: CornucopiaSpec, *, write_matrices: bool, matrix_dir: Pat
         "n_matches": code.n == spec.n,
         "k_matches": k == spec.expected_k,
         "orthogonality_ok": code.orthogonality_ok(),
-        "noncommuting_pairs_match": fg_noncommuting == spec.expected_noncommuting_pairs,
+        "noncommuting_pairs_match": ab_noncommuting == spec.expected_noncommuting_pairs,
         "reduced_mod_p_over_3_abelian": reduced_abelian,
     }
     checks["all_checks_ok"] = all(checks.values())
@@ -258,8 +258,8 @@ def construct_one(spec: CornucopiaSpec, *, write_matrices: bool, matrix_dir: Pat
         "rank_HX": rank_hx,
         "rank_HZ": rank_hz,
         "orthogonality_ok": checks["orthogonality_ok"],
-        "translation_count": translation_count(spec.f_params, spec.g_params, spec.p),
-        "noncommuting_pairs": [list(item) for item in fg_noncommuting],
+        "translation_count": translation_count(spec.a_params, spec.b_params, spec.p),
+        "noncommuting_pairs": [list(item) for item in ab_noncommuting],
         "expected_noncommuting_pairs": [list(item) for item in spec.expected_noncommuting_pairs],
         "expected_reduced_group": spec.expected_reduced_group,
         "reduced_mod_p_over_3_abelian": reduced_abelian,
@@ -271,8 +271,8 @@ def construct_one(spec: CornucopiaSpec, *, write_matrices: bool, matrix_dir: Pat
         "col_weight_HX_max": int(col_wx.max()),
         "col_weight_HZ_min": int(col_wz.min()),
         "col_weight_HZ_max": int(col_wz.max()),
-        "F": [list(item) for item in spec.f_params],
-        "G": [list(item) for item in spec.g_params],
+        "A": [list(item) for item in spec.a_params],
+        "B": [list(item) for item in spec.b_params],
         "checks": checks,
     }
 
@@ -288,8 +288,8 @@ def write_text_summary(records: Sequence[dict], path: Path) -> None:
                 f"  [[n,k,d]]=[[{record['n']},{record['k']},{record['expected_d']}]] ranks=({record['rank_HX']},{record['rank_HZ']})",
                 f"  orthogonality_ok={record['orthogonality_ok']} reduced_mod_P_over_3_abelian={record['reduced_mod_p_over_3_abelian']}",
                 f"  noncommuting_pairs={record['noncommuting_pairs']}",
-                f"  F={record['F']}",
-                f"  G={record['G']}",
+                f"  A={record['A']}",
+                f"  B={record['B']}",
                 f"  checks={checks}",
                 "",
             ]
